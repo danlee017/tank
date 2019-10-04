@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    background: rgb(187, 218, 238)
+}
+
+.tank {
+    width: 130px;
+    height: 85px;
+    background: url('https://www.clipartmax.com/png/full/264-2649573_world-of-tanks-tank-master-pro-computer-icons-tank-icon.png') center center/cover no-repeat;
+    position: absolute;
+    left: 45%;
+    top: 200px;
+}
+
+.control {
+    position: relative;
+    width: 170px;
+    height: 100px;
+    background: #ddd;
+    border: #666 1px solid;
+}
+
+button {
+    position: absolute;
+    width: 45px;
+    height: 35px;
+    text-transform: uppercase;
+    background: rgb(241, 173, 69);
+    border: #fff 1px solid;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#up {
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#down {
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#left {
+    left: 10px;
+    top: 45px;
+}
+
+#right {
+    right: 10px;
+    top: 45px;
+}
+
+#reset {
+    background: rgb(247, 141, 141);
+    bottom: -35px;
+    border: #666 1px solid;
+}
